@@ -2,7 +2,6 @@ require 'nokogiri'
 require 'html2markdown/element'
 require 'html2markdown/converter'
 Dir['./lib/html2markdown/converter/*'].each do |path|
-  p path
   require "html2markdown/converter/#{File.basename(path)}"
 end
 
