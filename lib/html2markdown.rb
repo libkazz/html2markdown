@@ -6,5 +6,4 @@ Dir[File.expand_path('../html2markdown/converter', __FILE__) + '/*'].sort.each d
 end
 
 module Html2Markdown
-  VERSION = "0.1.0"
 end
